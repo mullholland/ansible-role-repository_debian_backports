@@ -1,0 +1,14 @@
+# {{ ansible_managed }}
+# https://backports.debian.org/Instructions/
+# https://help.ubuntu.com/community/UbuntuBackports
+# Debian Backports Repositories
+
+{% if ansible_distribution == 'Ubuntu' %}
+deb http://archive.ubuntu.com/ubuntu {{ repository_debian_backports_releases | default(ansible_distribution_release) }}-backports main restricted universe multiverse
+{% else %}
+{% if repository_debian_backports_sloppy %}
+deb http://deb.debian.org/debian {{ repository_debian_backports_releases | default(ansible_distribution_release) }}-backports-sloppy main
+{% else %}
+deb http://deb.debian.org/debian {{ repository_debian_backports_releases | default(ansible_distribution_release) }}-backports main
+{% endif %}
+{% endif %}

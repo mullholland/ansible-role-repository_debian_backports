@@ -1,0 +1,21 @@
+---
+molecule_exceptions:
+  - variation: CentOS
+    reason: "Backports repositories only support Debian/Ubuntu"
+  - variation: RedHat
+    reason: "Backports repositories only support Debian/Ubuntu"
+  - variation: Almalinux
+    reason: "Backports repositories only support Debian/Ubuntu"
+  - variation: RockyLinux
+    reason: "Backports repositories only support Debian/Ubuntu"
+  - variation: AmazonLinux
+    reason: "Backports repositories only support Debian/Ubuntu"
+molecule_scenarios:
+  - scenario: "default"
+    ansible: ["previous", "current", "next"]
+    platforms:
+      - "debian9"
+      - "debian10"
+      - "debian11"
+      - "ubuntu1804"
+      - "ubuntu2004"

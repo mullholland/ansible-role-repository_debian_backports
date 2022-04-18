@@ -1,0 +1,19 @@
+---
+# Possible Ubuntu releases
+#  bionic
+#  devel
+#  eoan
+#  focal
+#  groovy
+#  hirsute
+#  precise
+#  trusty
+#  xenial
+# Possible Debian releases
+#  bullseye
+#  buster
+#  stretch
+repository_debian_backports_releases: "{{ ansible_distribution_release }}"
+
+# Only Debian not Ubuntu
+repository_debian_backports_sloppy: false
