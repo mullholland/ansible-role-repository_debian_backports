@@ -60,6 +60,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/m
 -   [debian11](https://hub.docker.com/r/mullholland/docker-molecule-debian11)
 -   [ubuntu1804](https://hub.docker.com/r/mullholland/docker-molecule-ubuntu1804)
 -   [ubuntu2004](https://hub.docker.com/r/mullholland/docker-molecule-ubuntu2004)
+-   [ubuntu2204](https://hub.docker.com/r/mullholland/docker-molecule-ubuntu2204)
 
 The minimum version of Ansible required is 2.10, tests have been done to:
 
