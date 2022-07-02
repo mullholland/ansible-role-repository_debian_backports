@@ -12,7 +12,7 @@ molecule_exceptions:
     reason: "Backports repositories only support Debian/Ubuntu"
 molecule_scenarios:
   - scenario: "default"
-    ansible: ["previous", "current", "next"]
+    ansible: ["previous", "current", "development"]
     platforms:
       - "debian9"
       - "debian10"
