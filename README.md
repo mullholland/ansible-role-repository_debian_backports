@@ -2,7 +2,7 @@
 
 |GitHub|GitLab|
 |------|------|
-|[![github](https://github.com/mullholland/ansible-role-repository_debian_backports/workflows/Ansible%20Molecule/badge.svg)](https://github.com/mullholland/ansible-role-repository_debian_backports/actions)|[![gitlab](https://gitlab.com/mullholland/ansible-role-repository_debian_backports/badges/master/pipeline.svg)](https://gitlab.com/mullholland/ansible-role-repository_debian_backports)|[![quality](https://img.shields.io/ansible/quality/unset)](https://galaxy.ansible.com/mullholland/repository_debian_backports)|
+|[![github](https://github.com/mullholland/ansible-role-repository_debian_backports/workflows/Ansible%20Molecule/badge.svg)](https://github.com/mullholland/ansible-role-repository_debian_backports/actions)|[![gitlab](https://gitlab.com/mullholland/ansible-role-repository_debian_backports/badges/main/pipeline.svg)](https://gitlab.com/mullholland/ansible-role-repository_debian_backports)|
 
 description
 
@@ -66,7 +66,6 @@ The minimum version of Ansible required is 2.10, tests have been done to:
 
 -   The previous versions.
 -   The current version.
--   The [devel](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-devel-from-github-with-pip) version.
 
 
 
