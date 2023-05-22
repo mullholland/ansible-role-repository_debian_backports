@@ -14,9 +14,7 @@ molecule_scenarios:
   - scenario: "default"
     ansible: ["previous", "current"]
     platforms:
-      - "debian9"
       - "debian10"
       - "debian11"
-      - "ubuntu1804"
       - "ubuntu2004"
       - "ubuntu2204"

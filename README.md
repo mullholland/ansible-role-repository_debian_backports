@@ -55,10 +55,8 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
 
 This role has been tested on these [container images](https://hub.docker.com/u/mullholland):
 
--   [debian9](https://hub.docker.com/r/mullholland/docker-molecule-debian9)
 -   [debian10](https://hub.docker.com/r/mullholland/docker-molecule-debian10)
 -   [debian11](https://hub.docker.com/r/mullholland/docker-molecule-debian11)
--   [ubuntu1804](https://hub.docker.com/r/mullholland/docker-molecule-ubuntu1804)
 -   [ubuntu2004](https://hub.docker.com/r/mullholland/docker-molecule-ubuntu2004)
 -   [ubuntu2204](https://hub.docker.com/r/mullholland/docker-molecule-ubuntu2204)
 
