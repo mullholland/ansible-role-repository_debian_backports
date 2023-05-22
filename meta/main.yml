@@ -3,7 +3,7 @@ galaxy_info:
   author: Mullholland
   namespace: mullholland
   role_name: repository_debian_backports
-  description: description
+  description: Adds the Debian Backports Repository (https://backports.debian.org/) to your system
   license: MIT
   company: none
   min_ansible_version: "2.10"
@@ -14,39 +14,16 @@ galaxy_info:
   # platform on this list, let us know and we'll get it added!
   #
   platforms:
-    - name: EL
-      versions:
-        - all
-    - name: Amazon
-      versions:
-        - Candidate
-    - name: Fedora
-      versions:
-        - all
-        # - 34
-        # - 35
-    - name: Ubuntu
-      versions:
-        - all
-        # - bionic
-        # - focal
-        # - jammy
     - name: Debian
       versions:
         - all
-        # - stretch
-        # - buster
-        # - bullseye
+    - name: Ubuntu
+      versions:
+        - all
 
-  galaxy_tags: []
-  #  - cloud
-  #  - database
-  #  - development
-  #  - monitoring
-  #  - networking
-  #  - packaging
-  #  - system
-  #  - web
+
+  galaxy_tags:
+    - system
 
 dependencies: []
 # List your role dependencies here, one per line. Be sure to remove the '[]' above,
