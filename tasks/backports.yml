@@ -1,11 +1,11 @@
 ---
-- name: backports | Install apt-transport-https
+- name: Backports | Install apt-transport-https
   ansible.builtin.apt:
     name: apt-transport-https
     state: present
     update_cache: true
 
-- name: backports | Add backports repos
+- name: Backports | Add backports repos
   ansible.builtin.template:
     src: "deb.j2"
     dest: "/etc/apt/sources.list.d/backports.list"
@@ -14,7 +14,7 @@
     mode: "0644"
   register: repository_debian_backports_status
 
-- name: backports | Update repository cache
+- name: Backports | Update repository cache
   ansible.builtin.apt:
     update_cache: true
   when:
