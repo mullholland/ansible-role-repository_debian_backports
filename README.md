@@ -68,8 +68,8 @@ This role has been tested on these [container images](https://hub.docker.com/u/m
 
 |container|tags|
 |---------|----|
-|[Debian](https://hub.docker.com/repository/docker/mullholland/debian/general)|all|
-|[Ubuntu](https://hub.docker.com/repository/docker/mullholland/ubuntu/general)|all|
+|[Debian](https://hub.docker.com/repository/docker/mullholland/docker-debian-systemd/general)|all|
+|[Ubuntu](https://hub.docker.com/repository/docker/mullholland/docker-ubuntu-systemd/general)|all|
 
 The minimum version of Ansible required is 2.10, tests have been done to:
 
