@@ -51,5 +51,6 @@ jobs:
       - name: molecule
         uses: robertdebock/molecule-action@5.0.2
         with:
+          namespace: mullholland
           image: ${{ matrix.config.image }}
           tag: ${{ matrix.config.tag }}
