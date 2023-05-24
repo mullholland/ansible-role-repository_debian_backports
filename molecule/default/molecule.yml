@@ -15,7 +15,7 @@ driver:
   name: docker
 platforms:
   - name: "repositorydebianbackports-${image:-fedora}-${tag:-latest}${TOX_ENVNAME}"
-    image: "${namespace:-mullholland}/docker-${image:-fedora}-sytemd:${tag:-latest}"
+    image: "${namespace:-mullholland}/docker-${image:-fedora}-systemd:${tag:-latest}"
     command: /sbin/init
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
