@@ -5,4 +5,4 @@
 repository:
   description: Adds the Debian Backports Repository (https://backports.debian.org/) to your system
   homepage: https://mullholland.net
-  topics: system, ansible, molecule, tox, playbook
+  topics: system, ansible, molecule, playbook
